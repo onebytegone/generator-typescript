@@ -1,5 +1,5 @@
 {
-   "name": "@silvermine/generator-typescript",
+   "name": "generator-onebytegone-typescript",
    "version": "1.1.0",
    "author": "Jeremy Thomerson",
    "license": "MIT",
@@ -10,12 +10,12 @@
    },
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/silvermine/generator-typescript.git"
+      "url": "git+https://github.com/onebytegone/generator-typescript.git"
    },
    "bugs": {
-      "url": "https://github.com/silvermine/generator-typescript/issues"
+      "url": "https://github.com/onebytegone/generator-typescript/issues"
    },
-   "homepage": "https://github.com/silvermine/generator-typescript#readme",
+   "homepage": "https://github.com/onebytegone/generator-typescript#readme",
    "files": [
       "generators"
    ],

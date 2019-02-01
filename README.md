@@ -1,10 +1,9 @@
-# Silvermine TypeScript Project Yeoman Generator
+# onebytegone TypeScript Project Yeoman Generator
 
-[![NPM Version](https://img.shields.io/npm/v/@silvermine/generator-typescript.svg)](https://www.npmjs.com/package/@silvermine/generator-typescript)
-[![License](https://img.shields.io/github/license/silvermine/generator-typescript.svg)](./LICENSE)
-[![Build Status](https://travis-ci.com/silvermine/generator-typescript.svg?branch=master)](https://travis-ci.com/silvermine/generator-typescript)
-[![Dependency Status](https://david-dm.org/silvermine/generator-typescript.svg)](https://david-dm.org/silvermine/generator-typescript)
-[![Dev Dependency Status](https://david-dm.org/silvermine/generator-typescript/dev-status.svg)](https://david-dm.org/silvermine/generator-typescript#info=devDependencies&view=table)
+[![License](https://img.shields.io/github/license/onebytegone/generator-typescript.svg)](./LICENSE)
+[![Build Status](https://travis-ci.com/onebytegone/generator-typescript.svg?branch=master)](https://travis-ci.com/onebytegone/generator-typescript)
+[![Dependency Status](https://david-dm.org/onebytegone/generator-typescript.svg)](https://david-dm.org/onebytegone/generator-typescript)
+[![Dev Dependency Status](https://david-dm.org/onebytegone/generator-typescript/dev-status.svg)](https://david-dm.org/onebytegone/generator-typescript#info=devDependencies&view=table)
 
 ## What is it?
 
@@ -46,14 +45,16 @@ npm i -g yo
 Then, install this generator:
 
 ```bash
-npm i -g @silvermine/generator-typescript
+git clone git@github.com:onebytegone/generator-typescript.git
+cd generator-typescript
+npm link
 ```
 
 Finally, create your project folder and run the generator in its root:
 
 ```bash
 mkdir YOUR_DIR_NAME && cd YOUR_DIR_NAME
-yo @silvermine/typescript
+yo onebytegone-typescript
 ```
 
 ### What is a library?

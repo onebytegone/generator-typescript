@@ -1,5 +1,5 @@
 {
-   "name": "<%_ if (isOpenSource) { _%>@silvermine/<%_ } _%><%= projectName %>",
+   "name": "<%= projectName %>",
    "version": "0.1.0",
    "description": "",
    <%_ if (isLibrary) { _%>
@@ -19,12 +19,12 @@
    <%_ if (isOpenSource) { _%>
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/silvermine/<%= projectName %>.git"
+      "url": "git+https://github.com/onebytegone/<%= projectName %>.git"
    },
    "bugs": {
-      "url": "https://github.com/silvermine/<%= projectName %>/issues"
+      "url": "https://github.com/onebytegone/<%= projectName %>/issues"
    },
-   "homepage": "https://github.com/silvermine/<%= projectName %>#readme",
+   "homepage": "https://github.com/onebytegone/<%= projectName %>#readme",
    <%_ } _%>
    "devDependencies": {
       "@commitlint/cli": "8.3.5",
